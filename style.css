@@ -48,6 +48,7 @@ button:hover{
   align-items: center;
   justify-content: center;
   gap: 10px;
+  font-family: DM Sans;
 }
 
 .div3{
@@ -61,10 +62,12 @@ button:hover{
 
 
 .div3 h3{
-  font-size: 36px;
+  font-size: 34px;
   height: 54px;
   width: 805px;
   text-align: center;
+  color: #002863;
+  font-family: DM Sans;
 }
 
 .rectangle{
@@ -82,6 +85,10 @@ button:hover{
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  
+}
+.cards:hover{
+  transform: scale(1.1)
   
 }
 
@@ -169,6 +176,10 @@ button:hover{
   align-items: center;
 }
 
+.newcard:hover{
+  transform: scale(1.03);
+}
+
 .card img {
   
   width: 337px;
@@ -182,7 +193,7 @@ button:hover{
 
 .description {
   padding: 15px;
-  font-family: DM sans-serif;
+  font-family: DM Sans;
 }
 
 .prev, .next {
@@ -210,6 +221,8 @@ button:hover{
 .second-heading{
   text-align: center;
   margin: 10px;
+  color: #002863;
+  font-family: DM Sans;
 }
 
 .second-heading p{
@@ -253,6 +266,21 @@ button:hover{
 .div5{
   padding: 50px;
   text-align: center;
+  font-family: DM Sans;
+  margin-bottom: 40px;
+  color: #002863;
+  font-weight: 700;
+}
+
+.description p{
+  font-family: DM Sans;
+  color: #002863;
+  font-weight: 500;
+}
+.description h2{
+  font-family: DM Sans;
+  color: #FF3F4E;
+  font-size: 20px;
 }
 
 .div6{
@@ -319,7 +347,7 @@ button:hover{
   }
 
   .div2 h1{
-    font-size: 22px;
+    font-size: 20px;
   }
   
   .div3{
